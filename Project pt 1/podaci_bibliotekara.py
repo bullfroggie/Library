@@ -1,0 +1,44 @@
+bibliotekari = [
+    {
+        "id": 432156,
+        "ime": "Milos",
+        "prezime": "Milosevic",
+        "korisnicko_ime": "milos.milosevic.11",
+        "lozinka": "asdfghh"
+    },
+    {
+        "id": 651234,
+        "ime": "Milan",
+        "prezime": "Milanovic",
+        "korisnicko_ime": "milan.milanovic.11",
+        "lozinka": "hgfdsa"
+    },
+    {
+        "id": 125364,
+        "ime": "Nikola",
+        "prezime": "Nikolic",
+        "korisnicko_ime": "nikola.nikolic.11",
+        "lozinka": "nikolicn122"
+    },
+    {
+        "id": 222113,
+        "ime": "Milos",
+        "prezime": "Zoranovic",
+        "korisnicko_ime": "milos.zoranovic.11",
+        "lozinka": "hjkla"
+    },
+    {
+        "id": 900432,
+        "ime": "Aleksa",
+        "prezime": "Aleksic",
+        "korisnicko_ime": "aleksa.aleksic.11",
+        "lozinka": "lkjhga"
+    },
+    {
+        "id": 976359,
+        "ime": "Lazar",
+        "prezime": "Lazarevic",
+        "korisnicko_ime": "lazar.lazarevic.11",
+        "lozinka": "olikujyh"
+    }
+]
