@@ -13,8 +13,8 @@
     Comments are in English - everything else is in Serbian
 """
 
-import src.bibliotekar as bibliotekar
-import src.korisnik as korisnik
+import bibliotekar as bibliotekar
+import korisnik as korisnik
 
 
 def prijava_na_sistem():

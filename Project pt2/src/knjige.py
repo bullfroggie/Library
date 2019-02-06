@@ -4,7 +4,7 @@ manipulating book related data
 """
 
 import json
-import src.bibliotekar as bibliotekar
+import bibliotekar as bibliotekar
 
 
 def ucitavanje_knjiga():
@@ -72,18 +72,23 @@ def dodavanje_knjige():
                 except (ValueError, TypeError):
                     print("\nMorate uneti broj.\n")
                 else:
-                    nova_knjiga["id"] = id_knjige
-                    nova_knjiga["autor"] = autor
-                    nova_knjiga["ime_knjige"] = ime_knjige
-                    nova_knjiga["god_izd"] = godina_izdavanja
-                    nova_knjiga["ukupan_br_prim"] = ukupan_br_prim
-                    nova_knjiga["br_slob_prim"] = br_slob_prim
-                    knjige.append(nova_knjiga)
+                    if br_slob_prim > ukupan_br_prim:
+                        print("\nUneli ste vise slobodnih primeraka nego ukupnih!")
+                        dodavanje_knjige()
+                        break
+                    else:
+                        nova_knjiga["id"] = id_knjige
+                        nova_knjiga["autor"] = autor
+                        nova_knjiga["ime_knjige"] = ime_knjige
+                        nova_knjiga["god_izd"] = godina_izdavanja
+                        nova_knjiga["ukupan_br_prim"] = ukupan_br_prim
+                        nova_knjiga["br_slob_prim"] = br_slob_prim
+                        knjige.append(nova_knjiga)
 
-                    with open("../data/knjige.json", "w") as dodavanje:
-                        json.dump(knjige, dodavanje, indent=4)
-                    prikaz_knjiga()
-                    return
+                        with open("../data/knjige.json", "w") as dodavanje:
+                            json.dump(knjige, dodavanje, indent=4)
+                        prikaz_knjiga()
+                        return
             if postoji:
                 print("\nUneti ID vec postoji.")
 

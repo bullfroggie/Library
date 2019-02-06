@@ -4,7 +4,7 @@ manipulating data as a user
 """
 
 import json
-from src.bibliotekar import ucitavanje_zaduzenja, ucitavanje_knjiga, ucitavanje_korisnika
+from bibliotekar import ucitavanje_zaduzenja, ucitavanje_knjiga, ucitavanje_korisnika
 
 trenutno_prijavljen = []
 

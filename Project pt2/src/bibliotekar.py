@@ -5,7 +5,7 @@ manipulating data as a librarian
 
 import json
 import datetime
-import src.knjige as knjige
+import knjige as knjige
 
 trenutno_prijavljen = []
 
