@@ -2,7 +2,7 @@
 University related project for the Programming Fundamentals class
 
 # Getting Started
-This program represents a Library Service where librarians and users can manipulate with the book related data. The program is console-based, therefore it should be ran within the editor. 
+This program is a CLI implementation of a Library Service where librarians and users can manipulate with the book related data. The program should be run within the editor. 
 If the program won't run in your editor, delete src. path prefix from the import lines.
 
 # *** The zipped file is intended for the Professor ***
