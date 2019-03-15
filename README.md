@@ -1,8 +1,8 @@
 # Library-Service-Project
 University related project for the Programming Fundamentals class
 
-Part 1 of the project is without using JSON
-Part 2 is using JSON for storing values
+# Part 1 of the project is without using JSON
+# Part 2 is using JSON for storing values
 
 # Getting Started
 This program is a CLI implementation of a Library Service where librarians and users can manipulate with the book related data. The program should be run within the editor. 
